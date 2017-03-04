@@ -29,6 +29,14 @@ int main()
     for (i = 0; i < 7; ++i) {
     for (i = 0; i < N_ELEMENTS(arr); ++i) {
         printf("%d ", arr[i]);
+    int i;
+    for (i = 0; i < N_ELEMENTS(arr); ++i) {
+        printf("%d ", arr[i]);
+    int i = 0;
+    printf("%d", arr[i]);
+    ++i;
+    for (; i < N_ELEMENTS(arr); ++i) {
+        printf(", %d", arr[i]);
     }
     printf("\n");
 
